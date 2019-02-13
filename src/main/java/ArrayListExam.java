@@ -20,6 +20,4 @@ public class ArrayListExam {
         }
         return sentence.toString();
     }
-
-
 }

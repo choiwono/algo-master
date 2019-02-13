@@ -21,8 +21,6 @@ public class lotto {
             // 7 ~ 12까지 가능
             for (int i = 0; i < k - 5 ; i++) { // 총 7~12까지 가능
                 cnt = 1;
-                System.out.println(k);
-                System.out.println(i);
                 findLottoNum(i, String.valueOf(arr[i]));
             }
 
