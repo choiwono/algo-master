@@ -4,9 +4,6 @@ public class Programmers03 {
         String answer = "";
         int length = str.length();
         for (int i = 0; i < length; i++) {
-            if(i == length -1){
-                answer = "";
-            }
             if (i != length - 1) {
                 if (str.charAt(i) == str.charAt(i + 1)) {
                     str.deleteCharAt(i);
