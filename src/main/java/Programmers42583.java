@@ -1,40 +1,47 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.stream.Stream;
 
 public class Programmers42583 {
-    public static int solution(int bridge_length, int weight, int[] truck_weights) {
+    public static void main(String[] args) {
+        int bride_length = 100;
+        int weight = 100;
+        int[] truck_weights = {10};
+        int answer = solution(bride_length,weight,truck_weights);
+        System.out.println(answer);
+    }
+
+    public static int solution(int bridge_length, int weight, int[] truck_weights){
         int answer = 0;
-        // 현재 다리위의 무게를 넘지 않는지 확인해야함
-        // 다리에 진입할 때부터 이미 1초가 지나감
-        Queue<Integer> q = new LinkedList<>();
-        HashMap<Integer,Integer> bride = new HashMap<>();
-        for(int i : truck_weights) q.offer(i);
-        int sum = 0;
+        int bridge_weight = 0;
+
+        // 길이가 2, 10kg를 견디는 다리가 있을 때 모든 트럭이 다리를 지나는 시간을 구할것
+        Queue<Integer> truckQ = new LinkedList<>();
+        HashMap<Integer,Integer> brideMap = new HashMap<>();
+
+        for(int i=0; i<truck_weights.length; i++)
+            truckQ.offer(truck_weights[i]);
+        // 7,4,5,6
         while(true){
-            // 종료조건 다리위의 차량과 대기차량이 없을경우
-            answer++; // 진입하자마자 1초증가
+            answer++;
 
-            if(bride.containsKey(answer))
-                bride.remove(answer);
+            if(brideMap.containsKey(answer)){
+                brideMap.remove(answer);
+            }
 
-            sum = bride.values().stream().mapToInt(Number::intValue).sum();
+            bridge_weight = brideMap.values().stream().mapToInt(Number::intValue).sum();
 
-            if(!q.isEmpty()){
-                if(q.peek()+sum <= weight){
-                    bride.put(answer+bridge_length,q.poll());
+            if (truckQ.size() > 0) {
+                if(bridge_weight + truckQ.peek() <= weight) {
+                    brideMap.put(answer + bridge_length, truckQ.poll());
                 }
             }
 
-            if(q.isEmpty() && bride.isEmpty())
+            if(truckQ.isEmpty() && brideMap.isEmpty()){
                 break;
+            }
         }
         return answer;
-    }
-
-    public static void main(String[] args) {
-        int bridgeLength = 2;
-        int weight = 10;
-        int[] truckWeights = {7,4,5,6};
-        int n = solution(bridgeLength,weight,truckWeights);
-        System.out.println(n);
     }
 }

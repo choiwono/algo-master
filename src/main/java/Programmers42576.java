@@ -1,25 +1,31 @@
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class Programmers42576 {
-    public static String solution(String[] participant, String[] completion) {
+    public static void main(String[] args) {
+        String[] participant = {"leo", "kiki", "eden"};
+        String[] completion = {"kiki", "eden"};
+        String answer = solution(participant,completion);
+        System.out.println(answer);
+    }
+
+    public static String solution(String[] participant,String[] completion){
         String answer = "";
         Arrays.sort(participant);
         Arrays.sort(completion);
-        int i;
-        for(i=0; i<completion.length; i++){
-            if(!participant[i].equals(completion[i])){
-                return participant[i];
+
+        Queue<String> partiQ = new LinkedList<>();
+        //Queue<String> compleQ = new LinkedList<>();
+        for(String i : participant)
+            partiQ.offer(i);
+
+        for(int i=0; i<completion.length; i++){
+            if(partiQ.peek().equals(completion[i])){
+                partiQ.remove();
             }
         }
-        return participant[i];
-    }
 
-    public static void main(String[] args) {
-        String[] participant = {"mislav", "stanko", "mislav", "ana"};
-        String[] completion = {"stanko", "ana", "mislav"};
-        System.out.println(solution(participant,completion));
+        return partiQ.poll();
     }
 }
