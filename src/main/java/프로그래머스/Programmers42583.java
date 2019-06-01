@@ -1,49 +1,70 @@
 package 프로그래머스;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.stream.Stream;
+import java.util.*;
 
 public class Programmers42583 {
     public static void main(String[] args) {
-        int bride_length = 100;
-        int weight = 100;
-        int[] truck_weights = {10};
-        int answer = solution(bride_length,weight,truck_weights);
+        int bride_length = 2;
+        int weight = 10;
+        int[] truck_weights = {7,4,5,6};
+        //int answer = solution(bride_length,weight,truck_weights);
+        Programmers42583 program = new Programmers42583();
+        int answer = program.solution(bride_length,weight,truck_weights);
         System.out.println(answer);
     }
 
-    public static int solution(int bridge_length, int weight, int[] truck_weights){
+    public int solution(int bridge_length, int weight, int[] truck_weights){
         int answer = 0;
         int bridge_weight = 0;
-
-        // 길이가 2, 10kg를 견디는 다리가 있을 때 모든 트럭이 다리를 지나는 시간을 구할것
+        List<Truck> bridgeList = new ArrayList<>();
         Queue<Integer> truckQ = new LinkedList<>();
-        HashMap<Integer,Integer> brideMap = new HashMap<>();
 
+        // 트럭은 1초에 1만큼 움직인다.
+        // 다리길이는 bride_length이고, 무게는 weight까지 견딘다.
+        // 다리안에 트럭의 시간을 체크해서 bride_length와 동일하면 제외.
+        // 순서대로 넣자
         for(int i=0; i<truck_weights.length; i++)
             truckQ.offer(truck_weights[i]);
-        // 7,4,5,6
+
         while(true){
             answer++;
 
-            if(brideMap.containsKey(answer)){
-                brideMap.remove(answer);
-            }
-
-            bridge_weight = brideMap.values().stream().mapToInt(Number::intValue).sum();
-
-            if (truckQ.size() > 0) {
-                if(bridge_weight + truckQ.peek() <= weight) {
-                    brideMap.put(answer + bridge_length, truckQ.poll());
+            for(int i=0; i<bridgeList.size(); i++){
+                if(bridgeList.get(i).getDistance() == answer){
+                    bridgeList.remove(i);
                 }
             }
 
-            if(truckQ.isEmpty() && brideMap.isEmpty()){
+            bridge_weight = bridgeList.stream().mapToInt(f -> f.getWeight()).sum();
+
+            if(truckQ.size() > 0) {
+                if (truckQ.peek() + bridge_weight <= weight) {
+                    bridgeList.add(new Truck(truckQ.poll(), answer + bridge_length));
+                }
+            }
+
+            if(truckQ.isEmpty() && bridgeList.size() == 0){
                 break;
             }
         }
         return answer;
+    }
+
+    public class Truck {
+        private int weight;
+        private int distance;
+
+        public Truck(int weight, int distance){
+            this.weight = weight;
+            this.distance = distance;
+        }
+
+        public int getWeight(){
+            return this.weight;
+        }
+
+        public int getDistance(){
+            return this.distance;
+        }
     }
 }

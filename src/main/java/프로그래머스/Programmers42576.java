@@ -12,18 +12,18 @@ public class Programmers42576 {
         System.out.println(answer);
     }
 
-    public static String solution(String[] participant,String[] completion){
-        String answer = "";
+    public static String solution(String[] participant, String[] completion){
+        // 정렬하기
         Arrays.sort(participant);
         Arrays.sort(completion);
 
         Queue<String> partiQ = new LinkedList<>();
-        //Queue<String> compleQ = new LinkedList<>();
-        for(String i : participant)
-            partiQ.offer(i);
+
+        for(int i=0; i<participant.length; i++)
+            partiQ.offer(participant[i]);
 
         for(int i=0; i<completion.length; i++){
-            if(partiQ.peek().equals(completion[i])){
+            if (partiQ.peek().equals(completion[i])) {
                 partiQ.remove();
             }
         }

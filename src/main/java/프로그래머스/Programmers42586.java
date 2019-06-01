@@ -1,41 +1,49 @@
 package 프로그래머스;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class Programmers42586 {
     public static void main(String[] args) {
-        int[] progress = {93,30,55};
-        int[] speeds = {1,30,5};
+        int[] progress = {40, 93, 30, 55, 60, 65};
+        int[] speeds = {60, 1, 30, 5, 10, 7};
         int[] result = solution(progress,speeds);
         for(int i : result){
             System.out.println(i);
         }
     }
-    public static int[] solution(int[] progress, int[] speeds){
-        List<Integer> answerList = new ArrayList<>();
-        Queue<Integer> que = new LinkedList<>();
-        // 7 , 3 , 9
-        for(int i=0; i<progress.length; i++){
-            double remain = (100 - progress[i]) / speeds[i];
-            int day = (int)Math.ceil(remain);
-            // 반올림 처리
-            // 7,3,9
-            if(!que.isEmpty() && que.peek() < day){
-                answerList.add(que.size());
-                que.clear();
+    public static int[] solution(int[] progresses, int[] speeds){
+
+        List<Integer> list = new ArrayList<>();
+        Queue<Integer> dayQue = new LinkedList<>();
+
+        for(int i=0; i<progresses.length; i++){
+            int day = (100 - progresses[i]) / speeds[i];
+            if((100-progresses[i]) % speeds[i] > 0){
+                day++;
             }
-            que.offer(day);
+            dayQue.offer(day);
         }
-        answerList.add(que.size());
-
-        int[] answer = new int[answerList.size()];
-        for(int i=0; i<answerList.size(); i++){
-            answer[i] = answerList.get(i);
+        int cnt = 1;
+        int head = dayQue.poll();
+        while(true){
+            int num = dayQue.poll();
+            if(num <= head){
+                cnt++;
+            } else {
+                list.add(cnt);
+                cnt = 1;
+                head = num;
+            }
+            if(dayQue.isEmpty()){
+                break;
+            }
         }
+        list.add(cnt);
 
+        int[] answer = new int[list.size()];
+        for(int i=0; i<list.size(); i++){
+            answer[i] = list.get(i);
+        }
         return answer;
     }
 }
