@@ -6,33 +6,34 @@ public class Programmers43165 {
     public static void main(String[] args) {
         int[] numbers = {1,1,1,1,1};
         int target = 3;
-
-        Programmers43165 programmers = new Programmers43165();
-        programmers.solution(numbers,target);
+        // 모든 경우의 수 구하기
+        // dfs 문제
     }
 
     public int solution(int[] numbers, int target){
-        permutation(numbers, target, 0);
+        dfs(numbers, target, 0);
         return ANSWER;
     }
 
-    public void permutation(int[] numbers, int target, int k){
-        // 모든 경우의 수 = dfs
-        // 재귀함수일 경우 한번 도는 시점에서 모든 경우의 수를 더하고, k값이 증가되야함.
+    public void dfs(int[] numbers, int target, int k){
+        // 종료조건 ..
         if(k == numbers.length){
             int sum = 0;
-            for(int i = 0;i<numbers.length;i++){
+            //합계를 구해야됨..
+            for(int i=0; i<numbers.length; i++){
                 sum += numbers[i];
             }
-            if(sum == target)
+            if(sum == target){
                 ANSWER++;
-            return;
-        } else {
-            numbers[k] *= 1;
-            permutation(numbers,target,k+1);
-
-            numbers[k] *= -1;
-            permutation(numbers,target,k+1);
+            }
         }
+
+        numbers[k] *= 1;
+        dfs(numbers, target, k+1);
+
+        numbers[k] *= -1;
+        dfs(numbers, target, k+1);
+        // 매번 안에 있는 numbers의 값을 +1, -1로 변경해야함.. 넘버즈의 값을 바꿔야한다.
+        // 합계가 target 넘버와 일치할 경우 answer값을 늘려주자..
     }
 }

@@ -9,7 +9,13 @@ public class Programmers12985 {
     public static int solution(int n, int a, int b){
 
         int answer = 0;
-        while(a != b){
+        while(true){
+            answer++;
+
+            if(a + 1 == b || a - 1 == b || b + 1 == a || b - 1 == a){
+                break;
+            }
+
             if(a % 2 == 0) {
                 a = a / 2;
             } else if(a % 2 > 0){
@@ -23,7 +29,6 @@ public class Programmers12985 {
                 b = (b / 2);
                 b++;
             }
-            answer++;
         }
 
         return answer;
