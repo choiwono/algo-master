@@ -15,7 +15,4 @@ public class JumpTeleport {
         }
         return cnt;
     }
-    /*public int solution(){
-
-    }*/
 }
