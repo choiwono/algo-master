@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11185824-0d66-4817-a9f4-adda8a2fddcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/JadenCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/JoyStick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/LeastCommonMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/Numbers12953.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/NumbersOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon11399.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon1931.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon4307.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12951.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42579.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42860.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/기타/Atm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/기타/CoinZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/기타/ConversationRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기타/JumpTeleport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기타/JumpTeleport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12899.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12899.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/백준/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/백준/Coin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,77 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Coin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12899.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/Numbers12953.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42860.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon4307.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/기타/Atm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon13023.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1463.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42579.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+            <state relative-caret-position="341">
+              <caret line="22" column="22" selection-start-line="14" selection-start-column="8" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -141,9 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SkillCheckLevel02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hackerrank01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Programmers42629.java" />
         <option value="$PROJECT_DIR$/src/main/java/Prorammers42746.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42583.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42576.java" />
@@ -185,13 +106,16 @@
         <option value="$PROJECT_DIR$/src/main/java/기타/NumbersOf.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/Coin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/백준/Coin.java" />
         <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon11399.java" />
         <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon1931.java" />
         <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12899.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/Numbers12953.java" />
         <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42860.java" />
         <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon4307.java" />
+        <option value="$PROJECT_DIR$/src/main/java/백준/Coin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/기타/CoinZero.java" />
+        <option value="$PROJECT_DIR$/src/main/java/기타/ConversationRoom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/기타/Atm.java" />
       </list>
     </option>
   </component>
@@ -214,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,15 +200,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560347384126" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chrome-extension" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560414673300" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -304,26 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Backjoon4307">
-    <configuration name="Backjoon11399" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.Backjoon11399" />
+  <component name="RunManager" selected="Application.Atm">
+    <configuration name="Atm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.Atm" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="백준.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Backjoon1931" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.Backjoon1931" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="백준.*" />
+          <option name="PATTERN" value="기타.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +255,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers12953" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.Numbers12953" />
+    <configuration name="CoinZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.CoinZero" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="백준.*" />
+          <option name="PATTERN" value="기타.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConversationRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="기타.ConversationRoom" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="기타.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Atm" />
+        <item itemvalue="Application.ConversationRoom" />
+        <item itemvalue="Application.CoinZero" />
         <item itemvalue="Application.Backjoon4307" />
         <item itemvalue="Application.Programmers42860" />
-        <item itemvalue="Application.Numbers12953" />
-        <item itemvalue="Application.Backjoon11399" />
-        <item itemvalue="Application.Backjoon1931" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +411,8 @@
       <workItem from="1560143541731" duration="12512000" />
       <workItem from="1560192651782" duration="56000" />
       <workItem from="1560307752766" duration="11022000" />
-      <workItem from="1560338939376" duration="6320000" />
+      <workItem from="1560338939376" duration="6509000" />
+      <workItem from="1560402576586" duration="6991000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,3 더하기 문제 해결">
       <created>1547278811923</created>
@@ -615,11 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559824364141</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="# 프로그래머스, 백준 문제풀이">
+      <created>1560347409424</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1560347409424</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440853000" />
+    <option name="totallyTimeSpent" value="448033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,8 +565,8 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75490195" visible="true" weight="0.24291497" />
-      <window_info id="Structure" order="1" sideWeight="0.24509804" side_tool="true" visible="true" weight="0.24291497" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8238434" visible="true" weight="0.24696356" />
+      <window_info id="Structure" order="1" sideWeight="0.17615658" side_tool="true" visible="true" weight="0.24696356" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -643,8 +575,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.455516" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16014235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37010676" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35231316" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.56405693" />
@@ -684,7 +616,8 @@
     <MESSAGE value="# 백준강의 문제풀이" />
     <MESSAGE value="# 프로그래머스 배민" />
     <MESSAGE value="# 프로그래머스 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 프로그래머스 문제풀이" />
+    <MESSAGE value="# 프로그래머스, 백준 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 프로그래머스, 백준 문제풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,27 +638,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/algo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/algo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/algo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/algo04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1018,10 +930,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon13023.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/LeastCommonMultiple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon11399.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1034,15 +953,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42579.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
+        <state relative-caret-position="912">
           <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/LeastCommonMultiple.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon4307.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="608">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1053,48 +972,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1931.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon11399.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/Numbers12953.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42860.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon4307.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon13023.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1931.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/ConversationRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="4" selection-start-line="4" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/CoinZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Coin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/Atm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="22" column="22" selection-start-line="14" selection-start-column="8" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>

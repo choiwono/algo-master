@@ -9,7 +9,6 @@ public class Coin {
         int arr[] = new int[N];
 
         for(i=0; i<N; i++) arr[i] = sc.nextInt();
-        /*int arr[] = {1,5,10,50,100,500,1000,5000,10000,50000};*/
         int answer = solution(N,K,arr);
         System.out.println(answer);
     }
