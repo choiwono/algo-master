@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11185824-0d66-4817-a9f4-adda8a2fddcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/ArrGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/ListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/NetWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/기타/DfsBfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42841.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42841.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/기타/NetWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기타/NetWork.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,63 +32,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/Atm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/기타/DfsBfs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42841.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/기타/NetWork.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/ListGraph.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#1385#1386#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1483#1484#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/ArrGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding>
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/NetWork.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="855">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -118,9 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Programmers42747.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Backjoon1557.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Backjoon2557.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42557.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42577.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42578.java" />
@@ -168,7 +139,10 @@
         <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers43162.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/ListGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/ArrGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/기타/DfsBfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/NetWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java" />
+        <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java" />
       </list>
     </option>
   </component>
@@ -191,6 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,14 +228,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560513753930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560687945330" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -281,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NetWork">
+  <component name="RunManager" selected="Application.Backjoon1107">
     <configuration name="ArrGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="기타.ArrGraph" />
       <module name="algo" />
@@ -295,12 +269,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Atm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="기타.Atm" />
+    <configuration name="Backjoon1107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Backjoon1107" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="기타.*" />
+          <option name="PATTERN" value="백준.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Backjoon1476" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Backjoon1476" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="백준.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,19 +297,6 @@
     </configuration>
     <configuration name="NetWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="기타.NetWork" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="기타.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Programmers42841" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.Programmers42841" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -349,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Backjoon1107" />
+        <item itemvalue="Application.Backjoon1476" />
         <item itemvalue="Application.NetWork" />
         <item itemvalue="Application.ArrGraph" />
         <item itemvalue="Application.Programmers43162" />
-        <item itemvalue="Application.Programmers42841" />
-        <item itemvalue="Application.Atm" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +441,9 @@
       <workItem from="1560338939376" duration="6509000" />
       <workItem from="1560402576586" duration="6991000" />
       <workItem from="1560437578181" duration="77000" />
-      <workItem from="1560487406644" duration="13706000" />
+      <workItem from="1560487406644" duration="13963000" />
+      <workItem from="1560605006380" duration="705000" />
+      <workItem from="1560660088302" duration="11392000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,3 더하기 문제 해결">
       <created>1547278811923</created>
@@ -609,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560437599530</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="# 프로그래머스 문제풀이( 네트워크, 숫자야구 )">
+      <created>1560513773151</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560513773152</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="461816000" />
+    <option name="totallyTimeSpent" value="474170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,8 +611,8 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7733333" visible="true" weight="0.28421053" />
-      <window_info id="Structure" order="1" sideWeight="0.22666667" side_tool="true" visible="true" weight="0.28421053" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77056277" visible="true" weight="0.21295546" />
+      <window_info id="Structure" order="1" sideWeight="0.22943723" side_tool="true" visible="true" weight="0.21295546" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -638,8 +621,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33274022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17793594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23131673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.56405693" />
@@ -680,7 +663,8 @@
     <MESSAGE value="# 프로그래머스 배민" />
     <MESSAGE value="# 프로그래머스 문제풀이" />
     <MESSAGE value="# 프로그래머스, 백준 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 프로그래머스, 백준 문제풀이" />
+    <MESSAGE value="# 프로그래머스 문제풀이( 네트워크, 숫자야구 )" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 프로그래머스 문제풀이( 네트워크, 숫자야구 )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,37 +685,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/ArrayListExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/BirthdayChocolate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/BreakingRecords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42576.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42746.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1059,20 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/Atm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/ArrGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42841.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1089,25 +1032,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/ArrGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42841.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/Atm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/DfsExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/DfsBfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/NetWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
