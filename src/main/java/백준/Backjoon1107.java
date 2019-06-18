@@ -3,7 +3,7 @@ package 백준;
 import java.util.*;
 
 public class Backjoon1107 {
-    static int chanell = 100;
+    //static int chanell = 100;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class Backjoon1107 {
         for(int i=0; i<M; i++)
             arr[i] = sc.nextInt();
         // N 목표 숫자, arr 망가진 리모컨
-        solution(N,M,arr);
+        System.out.println(solution(N,M,arr));
     }
 
     public static int solution(int N,int M, int[] arr){
@@ -31,19 +31,41 @@ public class Backjoon1107 {
         int max = 999999;
         for(int i=0; i<arr.length; i++)
             button[arr[i]] = true;
-        String value = "";
-        int min = 0;
+        // 망가진 버튼 값을 넣었음..
+        int temp = Math.abs(100-N); // + - 로 바로 이동하는 절대값
 
-        int temp = Math.abs(100-N);
-        // 100에서 바로 + - 를 할 수 있다.
-        // 6 7 8 이 망가졌을 경우 이 숫자들은 리모컨에서 사용불가
-
-        for(int i=0; i<10000; i++){
-            if(button[i]) continue;
-            value += Integer.toString(i); // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
-            System.out.println(value);
+        for(int i=0; i<= 1000000; i++){
+            int c = i;
+            int length = canMove(c,button);
+            if(length > 0){ // 800 - 5266
+                int press = c - N;
+                if(press < 0){
+                    press = -press;
+                }
+                if(temp > length + press){
+                    temp = length + press;
+                }
+            }
         }
 
-        return answer;
+        // 100에서 바로 + - 를 할 수 있다.
+        // 6 7 8 이 망가졌을 경우 이 숫자들은 리모컨에서 사용불가
+        return temp;
+    }
+
+    public static int canMove(int c, boolean[] button){
+        int length = 0;
+        if(c == 0)
+            return button[0] ? 0:1; // 0이 못쓰는 번호일 경우
+
+        while(c > 0){
+            if(button[c % 10]){
+                // 10으로 나눴을때 나머지값에 해당하는 키가 못쓰는 키일 경우..
+                return 0;
+            }
+            length += 1;
+            c /= 10;
+        }
+        return length;
     }
 }

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11185824-0d66-4817-a9f4-adda8a2fddcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/DfsBfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42627.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/기타/NetWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/기타/NetWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,28 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/DfsBfs.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42627.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/기타/NetWork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -61,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="57">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="52" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -92,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Programmers42557.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42577.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42578.java" />
         <option value="$PROJECT_DIR$/src/main/java/Programmers42748.java" />
@@ -142,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/java/기타/DfsBfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/NetWork.java" />
         <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java" />
+        <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42627.java" />
         <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java" />
       </list>
     </option>
@@ -165,8 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,12 +206,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560687945330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560848068245" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -308,12 +288,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Programmers43162" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="프로그래머스.Programmers43162" />
+    <configuration name="Programmers42627" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="프로그래머스.Programmers42627" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="기타.*" />
+          <option name="PATTERN" value="프로그래머스.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,9 +305,9 @@
       <list>
         <item itemvalue="Application.Backjoon1107" />
         <item itemvalue="Application.Backjoon1476" />
+        <item itemvalue="Application.Programmers42627" />
         <item itemvalue="Application.NetWork" />
         <item itemvalue="Application.ArrGraph" />
-        <item itemvalue="Application.Programmers43162" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +423,8 @@
       <workItem from="1560437578181" duration="77000" />
       <workItem from="1560487406644" duration="13963000" />
       <workItem from="1560605006380" duration="705000" />
-      <workItem from="1560660088302" duration="11392000" />
+      <workItem from="1560660088302" duration="11917000" />
+      <workItem from="1560824063968" duration="14193000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,3 더하기 문제 해결">
       <created>1547278811923</created>
@@ -592,11 +573,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560513773152</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="# 백준 문제풀이 DfsBfs, 프로그래머스 네트워크 등">
+      <created>1560687978806</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560687978806</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="474170000" />
+    <option name="totallyTimeSpent" value="488888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,8 +599,8 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.77056277" visible="true" weight="0.21295546" />
-      <window_info id="Structure" order="1" sideWeight="0.22943723" side_tool="true" visible="true" weight="0.21295546" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7671518" visible="true" weight="0.20890689" />
+      <window_info id="Structure" order="1" sideWeight="0.23284823" side_tool="true" visible="true" weight="0.20890689" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -621,8 +609,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17793594" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23131673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14412811" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34875444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.56405693" />
@@ -664,7 +652,8 @@
     <MESSAGE value="# 프로그래머스 문제풀이" />
     <MESSAGE value="# 프로그래머스, 백준 문제풀이" />
     <MESSAGE value="# 프로그래머스 문제풀이( 네트워크, 숫자야구 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 프로그래머스 문제풀이( 네트워크, 숫자야구 )" />
+    <MESSAGE value="# 백준 문제풀이 DfsBfs, 프로그래머스 네트워크 등" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 백준 문제풀이 DfsBfs, 프로그래머스 네트워크 등" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -685,13 +674,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42746.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42583.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
@@ -1058,29 +1040,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/DfsBfs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="817">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/NetWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="380">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42627.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1476.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="161">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon1107.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="57">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
