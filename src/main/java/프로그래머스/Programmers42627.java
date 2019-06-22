@@ -12,8 +12,6 @@ public class Programmers42627 {
 
     public int solution(int[][] jobs){
         int answer = 0;
-
-        // list 안에 정렬시킨 키값을 넣는다..
         // 요청시간 순대로 정렬해보자...
         // 요청시간이 같은 경우 수행시간 순대로..
         Arrays.sort(jobs, new Comparator<int[]>() {
@@ -70,7 +68,6 @@ public class Programmers42627 {
             if(index == jobs.length && pq.size() == 0)
                 break;
         }
-        //System.out.println(sum);
         return answer / jobs.length;
     }
 }
