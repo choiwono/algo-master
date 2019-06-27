@@ -7,8 +7,12 @@ public class Programmers42895 {
 
     public static int solution(int N, int number){
         int answer = 0;
-
-        // 경우의 수를 생각해보자..
+        // n * number = 11 * 2 == 22
+        // 12 / 5 = 2 ... 2
+        // N 이 9인 경우 32000
+        // 32000 % 9
+        // 11을 만드는 방법
+        
 
         return answer;
     }
