@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11185824-0d66-4817-a9f4-adda8a2fddcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/MagicSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/기타/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon11053.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/백준/Backjoon2195.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,12 +28,36 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/기타/MagicSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="304">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon11053.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon2195.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers43165.java" />
-        <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12973.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/MapMerge.java" />
         <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12980.java" />
         <option value="$PROJECT_DIR$/src/main/java/프로그래머스/Programmers42587.java" />
@@ -123,6 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/백준/Boj2589.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/Money.java" />
         <option value="$PROJECT_DIR$/src/main/java/기타/MagicSquare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon11053.java" />
+        <option value="$PROJECT_DIR$/src/main/java/백준/Backjoon2195.java" />
       </list>
     </option>
   </component>
@@ -229,8 +253,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562676104993" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563198307763" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-Vue-Todo/frontend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -251,9 +275,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MagicSquare">
-    <configuration name="Backjoon1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.Backjoon1260" />
+  <component name="RunManager" selected="Application.Backjoon2195">
+    <configuration name="Backjoon2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Backjoon2178" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -265,8 +289,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Backjoon2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="백준.Backjoon2178" />
+    <configuration name="Backjoon2195" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="백준.Backjoon2195" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -319,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Backjoon2195" />
         <item itemvalue="Application.MagicSquare" />
         <item itemvalue="Application.Boj2589" />
         <item itemvalue="Application.Boj8958" />
         <item itemvalue="Application.Backjoon2178" />
-        <item itemvalue="Application.Backjoon1260" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +477,9 @@
       <workItem from="1562408212730" duration="599000" />
       <workItem from="1562479269477" duration="1444000" />
       <workItem from="1562500612579" duration="5000" />
-      <workItem from="1562587027112" duration="4870000" />
+      <workItem from="1562587027112" duration="4910000" />
+      <workItem from="1562733795050" duration="1237000" />
+      <workItem from="1563168660352" duration="5499000" />
     </task>
     <task id="LOCAL-00001" summary="1,2,3 더하기 문제 해결">
       <created>1547278811923</created>
@@ -623,11 +649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562251460043</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="# 알고리즘 문제풀이중..">
+      <created>1562677886295</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1562677886295</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="538123000" />
+    <option name="totallyTimeSpent" value="544899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,8 +675,8 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7256236" visible="true" weight="0.25910932" />
-      <window_info id="Structure" order="1" sideWeight="0.27437642" side_tool="true" visible="true" weight="0.25910932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72162163" visible="true" weight="0.14979757" />
+      <window_info id="Structure" order="1" sideWeight="0.27837837" side_tool="true" visible="true" weight="0.14979757" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -652,7 +685,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2153025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34163702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31494662" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -697,7 +730,8 @@
     <MESSAGE value="# 프로그래머스 문제풀이( 네트워크, 숫자야구 )" />
     <MESSAGE value="# 백준 문제풀이 DfsBfs, 프로그래머스 네트워크 등" />
     <MESSAGE value="# 백준 프로그래머스 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 백준 프로그래머스 문제풀이" />
+    <MESSAGE value="# 알고리즘 문제풀이중.." />
+    <option name="LAST_COMMIT_MESSAGE" value="# 알고리즘 문제풀이중.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,24 +752,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/JumpTeleport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/프로그래머스/Programmers12951.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/C2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/NumbersOf.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1076,6 +1092,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/기타/MagicSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/기타/Money.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1083,10 +1106,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/기타/MagicSquare.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon11053.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="608">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/백준/Backjoon2195.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
