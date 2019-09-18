@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package 프로그래머스;
 
 import java.util.*;
@@ -10,7 +11,11 @@ public class Programmers42628 {
         System.out.println(answer[0]+","+answer[1]);
     }
 
+=======
+import java.util.*;
 
+class Solution {
+>>>>>>> da4b46f3f363321b68bb67e108627ee4fd1b9b4a
     public static int[] solution(String[] operations){
         int[] answer = {0,0};
         PriorityQueue<Integer> minQue = new PriorityQueue<>();
