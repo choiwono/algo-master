@@ -1,0 +1,994 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Algo1260<algo>",
+            "request": "launch",
+            "mainClass": "기타.Algo1260",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ants<algo>",
+            "request": "launch",
+            "mainClass": "기타.Ants",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrGraph<algo>",
+            "request": "launch",
+            "mainClass": "기타.ArrGraph",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Atm<algo>",
+            "request": "launch",
+            "mainClass": "기타.Atm",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BirthdayChocolate<algo>",
+            "request": "launch",
+            "mainClass": "기타.BirthdayChocolate",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BreakingRecords<algo>",
+            "request": "launch",
+            "mainClass": "기타.BreakingRecords",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Carpet<algo>",
+            "request": "launch",
+            "mainClass": "기타.Carpet",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Chicken<algo>",
+            "request": "launch",
+            "mainClass": "기타.Chicken",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CoinZero<algo>",
+            "request": "launch",
+            "mainClass": "기타.CoinZero",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ColoringBook<algo>",
+            "request": "launch",
+            "mainClass": "기타.ColoringBook",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConversationRoom<algo>",
+            "request": "launch",
+            "mainClass": "기타.ConversationRoom",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DayOfProgrammer<algo>",
+            "request": "launch",
+            "mainClass": "기타.DayOfProgrammer",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DfsBfs<algo>",
+            "request": "launch",
+            "mainClass": "기타.DfsBfs",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DfsExam<algo>",
+            "request": "launch",
+            "mainClass": "기타.DfsExam",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DivisibleSumPairs<algo>",
+            "request": "launch",
+            "mainClass": "기타.DivisibleSumPairs",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoitQuestion15<algo>",
+            "request": "launch",
+            "mainClass": "기타.DoitQuestion15",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EndToEnd<algo>",
+            "request": "launch",
+            "mainClass": "기타.EndToEnd",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Graph<algo>",
+            "request": "launch",
+            "mainClass": "기타.Graph",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IceCreamParlor<algo>",
+            "request": "launch",
+            "mainClass": "기타.IceCreamParlor",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JadenCase<algo>",
+            "request": "launch",
+            "mainClass": "기타.JadenCase",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JoyStick<algo>",
+            "request": "launch",
+            "mainClass": "기타.JoyStick",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JumpOver<algo>",
+            "request": "launch",
+            "mainClass": "기타.JumpOver",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JumpTeleport<algo>",
+            "request": "launch",
+            "mainClass": "기타.JumpTeleport",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ListGraph<algo>",
+            "request": "launch",
+            "mainClass": "기타.ListGraph",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LomeNumbers<algo>",
+            "request": "launch",
+            "mainClass": "기타.LomeNumbers",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MagicSquare<algo>",
+            "request": "launch",
+            "mainClass": "기타.MagicSquare",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MapMerge<algo>",
+            "request": "launch",
+            "mainClass": "기타.MapMerge",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MigratoryBirds<algo>",
+            "request": "launch",
+            "mainClass": "기타.MigratoryBirds",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Money<algo>",
+            "request": "launch",
+            "mainClass": "기타.Money",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Necklass<algo>",
+            "request": "launch",
+            "mainClass": "기타.Necklass",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NetWork<algo>",
+            "request": "launch",
+            "mainClass": "기타.NetWork",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NextPermutation<algo>",
+            "request": "launch",
+            "mainClass": "기타.NextPermutation",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Numbers12953<algo>",
+            "request": "launch",
+            "mainClass": "기타.Numbers12953",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumbersOf<algo>",
+            "request": "launch",
+            "mainClass": "기타.NumbersOf",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PairRemove<algo>",
+            "request": "launch",
+            "mainClass": "기타.PairRemove",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutation<algo>",
+            "request": "launch",
+            "mainClass": "기타.Permutation",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PhoneBook<algo>",
+            "request": "launch",
+            "mainClass": "기타.PhoneBook",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Printer<algo>",
+            "request": "launch",
+            "mainClass": "기타.Printer",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Retire<algo>",
+            "request": "launch",
+            "mainClass": "기타.Retire",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseArray<algo>",
+            "request": "launch",
+            "mainClass": "기타.ReverseArray",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RomeNumber<algo>",
+            "request": "launch",
+            "mainClass": "기타.RomeNumber",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateArray<algo>",
+            "request": "launch",
+            "mainClass": "기타.RotateArray",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SevenHobbit<algo>",
+            "request": "launch",
+            "mainClass": "기타.SevenHobbit",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SkillCheckLevel01<algo>",
+            "request": "launch",
+            "mainClass": "기타.SkillCheckLevel01",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SkillCheckLevel02<algo>",
+            "request": "launch",
+            "mainClass": "기타.SkillCheckLevel02",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solider<algo>",
+            "request": "launch",
+            "mainClass": "기타.Solider",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solution01<algo>",
+            "request": "launch",
+            "mainClass": "기타.Solution01",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum<algo>",
+            "request": "launch",
+            "mainClass": "기타.TwoSum",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algo01<algo>",
+            "request": "launch",
+            "mainClass": "기타.algo01",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algo02<algo>",
+            "request": "launch",
+            "mainClass": "기타.algo02",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algo03<algo>",
+            "request": "launch",
+            "mainClass": "기타.algo03",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algo04<algo>",
+            "request": "launch",
+            "mainClass": "기타.algo04",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algo05<algo>",
+            "request": "launch",
+            "mainClass": "기타.algo05",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-algo06<algo>",
+            "request": "launch",
+            "mainClass": "기타.algo06",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-lotto<algo>",
+            "request": "launch",
+            "mainClass": "기타.lotto",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-password<algo>",
+            "request": "launch",
+            "mainClass": "기타.password",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-plus123<algo>",
+            "request": "launch",
+            "mainClass": "기타.plus123",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-tetromino<algo>",
+            "request": "launch",
+            "mainClass": "기타.tetromino",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BOJ2667<algo>",
+            "request": "launch",
+            "mainClass": "백준.BOJ2667",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon11053<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon11053",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1107<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon1107",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon11399<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon11399",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1260<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon1260",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon13023<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon13023",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1451<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon1451",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1463<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon1463",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1476<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon1476",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon15649<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon15649",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon16198<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon16198",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1931<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon1931",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon2178<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon2178",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon2195<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon2195",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon2557<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon2557",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon4307<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon4307",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon7576<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon7576",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon9095<algo>",
+            "request": "launch",
+            "mainClass": "백준.Backjoon9095",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2589<algo>",
+            "request": "launch",
+            "mainClass": "백준.Boj2589",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Coin<algo>",
+            "request": "launch",
+            "mainClass": "백준.Coin",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon1001<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Backjoon1001",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Backjoon11720<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Backjoon11720",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj1008<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj1008",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj10430<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj10430",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj10718<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj10718",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj10817<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj10817",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj10869<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj10869",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj10871<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj10871",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj10998<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj10998",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj1463<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj1463",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj1924<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj1924",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2438<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2438",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2439<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2439",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2440<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2440",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2441<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2441",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2739<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2739",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2741<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2741",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2742<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2742",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj2839<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj2839",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj7287<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj7287",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj8393<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj8393",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj8958<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj8958",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Boj9498<algo>",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Boj9498",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Codility01<algo>",
+            "request": "launch",
+            "mainClass": "코딜리티.Codility01",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Codility03<algo>",
+            "request": "launch",
+            "mainClass": "코딜리티.Codility03",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers03<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers03",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12909<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12909",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12913<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12913",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12951<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12951",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12973<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12973",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12980<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12980",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12981<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12981",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers12985<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12985",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers2<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers2",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42557<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42557",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42576<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42576",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42577<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42577",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42578<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42578",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42579<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42579",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42583<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42583",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42586<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42586",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42587<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42587",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42627<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42627",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42628<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42628",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42746<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42746",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42747<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42747",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42748<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42748",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42839<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42839",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42840<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42840",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42841<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42841",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42842<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42842",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42860<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42860",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42862<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42862",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42883<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42883",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers42895<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers42895",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers43165<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers43165",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programmers49993<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers49993",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProgrammersLevel2Service<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.ProgrammersLevel2Service",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProgrammersLevel2Top<algo>",
+            "request": "launch",
+            "mainClass": "프로그래머스.ProgrammersLevel2Top",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hackerrank01<algo>",
+            "request": "launch",
+            "mainClass": "해커랭크.hackerrank01",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hakerRank<algo>",
+            "request": "launch",
+            "mainClass": "해커랭크.hakerRank",
+            "projectName": "algo"
+        }
+    ]
+}
