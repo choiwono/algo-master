@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Programmers43163",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers43163",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Programmers43162",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers43162",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Network",
             "request": "launch",
             "mainClass": "인프런알고리즘강좌.Network",
