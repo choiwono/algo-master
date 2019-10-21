@@ -1,6 +1,6 @@
 package 프로그래머스;
 
-import java.util.*;
+import java.util.LinkedList;
 
 public class Programmers43163 {
     // 방문했는지 체크..
@@ -39,7 +39,23 @@ public class Programmers43163 {
         // 글자가 한글자라도 같은 경우 통과.. 
         while(!queue.isEmpty()){
             // queue가 빌때까지 반복..!
+            int x = queue.getFirst();
+            queue.pollFirst();
+            stage++;
+            // 만약 words[x] 값이 target값과 일치할 경우 정답..
+            if(words[x].compareTo(target) == 0){
+                answer = stage;
+                return;
+            }
+            // 반복문..
+            for(int i=0; i<words.length; i++){
+                if(visited[i] == false && str_match(words[x], words[i])){
+                    queue.push(i);
+                    visited[i] = true;
+                }
+            }
         }
+        answer = 0;
     }
 
     private boolean str_match(String begin, String string) {
