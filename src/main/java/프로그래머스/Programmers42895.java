@@ -13,7 +13,6 @@ public class Programmers42895 {
         // 32000 % 9
         // 11을 만드는 방법
         
-
         return answer;
     }
 }
