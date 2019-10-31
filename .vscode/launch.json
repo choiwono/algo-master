@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ConnectIsland",
+            "request": "launch",
+            "mainClass": "프로그래머스.ConnectIsland",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - test02",
             "request": "launch",
             "mainClass": "기타.test02",
