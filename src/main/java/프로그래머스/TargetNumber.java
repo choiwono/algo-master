@@ -3,8 +3,8 @@ package 프로그래머스;
 import java.util.*;
 
 public class TargetNumber {
-    
-    static int answer = 0;
+
+    /*static int answer = 0;
 
     public static void main(String[] args) {
         //System.out.println("aaa");
@@ -22,8 +22,8 @@ public class TargetNumber {
         dfs(numbers,target,0,0);
         return answer;
     }
-
-    public static void dfs(int[] numbers, int target, int index, int sum){
+*/
+    /*public static void dfs(int[] numbers, int target, int index, int sum){
         // numbers 돌릴때마다 값을 체크
         if(index > numbers.length) return;
         if(index == numbers.length){
@@ -34,5 +34,5 @@ public class TargetNumber {
             dfs(numbers, target, index+1, sum + numbers[index]);
             dfs(numbers, target, index+1, sum - numbers[index]);
         }
-    }
+    }*/
 }
