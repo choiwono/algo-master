@@ -18,12 +18,22 @@ public class Programmers42886 {
     public static int solution(int[] weight){
         int answer = 0;
 
-        Arrays.sort(weight, new Comparator<int>() {
-            @Override
-            public int compare(int o1, int o2) {
-                return o2 - o1;
-            }
-        });
+        //Integer[] integerArr = Arrays.stream(weight).boxed().toArray( Integer[]::new );
+        //Arrays.sort(integerArr, Comparator.reverseOrder());
+
+        /*int[] sortArr = new int[weight.length];
+
+        for(int i=0; i<integerArr.length; i++){
+            sortArr[i] = integerArr[i];
+        }*/
+
+        // 만들 수 없는 양의 정수를 찾자.. 어떻게?
+        Arrays.sort(weight);
+
+        for(int w : weight){
+            if(answer < w) break;
+            answer += w;
+        }
 
         return answer;
     }
