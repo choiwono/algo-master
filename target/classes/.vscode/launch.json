@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TargetNumber",
+            "request": "launch",
+            "mainClass": "프로그래머스.TargetNumber"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - targetNumber",
+            "request": "launch",
+            "mainClass": "프로그래머스.targetNumber"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - targetNumber",
+            "request": "launch",
+            "mainClass": "main.java.프로그래머스.targetNumber"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Backjoon1001",
+            "request": "launch",
+            "mainClass": "백준기초문제100.Backjoon1001"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NumberOfIsland_bfs",
+            "request": "launch",
+            "mainClass": "NumberOfIsland_bfs"
+        }
+    ]
+}
