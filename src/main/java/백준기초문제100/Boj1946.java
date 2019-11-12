@@ -6,6 +6,7 @@ public class Boj1946 {
     // 모든 경우의 수를 다 비교한다..
     // 하나의 케이스가 1인 경우는 제외.. 무조건 가능
     // 둘중에 하나를 모든 지원자와 비교 했을 때 서류 혹은 면접이 높으면 가능.. 낮을 경우 제외..
+    // 시간초과.. 다시풀자
     static int T;
     static int N;
     static int[][] grade;
@@ -36,7 +37,7 @@ public class Boj1946 {
 
             // 1,4  2,3  3,2  4,1  5,5
             int answer = 0;
-            for(int x=grade.length - 1; x>=0; i--){
+            for(int x=grade.length - 1; x>=0; x--){
                 //System.out.println(grade[i][0]);
                 boolean flag = true;
 
