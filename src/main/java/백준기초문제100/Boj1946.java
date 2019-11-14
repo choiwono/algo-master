@@ -36,18 +36,13 @@ public class Boj1946 {
             });
 
             // 1,4  2,3  3,2  4,1  5,5
-            int answer = 0;
-            for(int x=grade.length - 1; x>=0; x--){
-                //System.out.println(grade[i][0]);
-                boolean flag = true;
-
-                for(int y=x-1; y>=0; y--){
-                    //System.out.println(grade[j][1]);
-                    if(grade[x][1] > grade[y][1]) {
-                        flag = false;
-                    }
+            int answer = 1;
+            int pivot = grade[1][1];
+            for(int x = 2; x <= N; x++){
+                if(pivot < grade[x][1]){
+                    answer++;
+                    pivot = grade[x][1];
                 }
-                if(flag) answer++;
             }
             //System.out.println(answer);
             answerList.add(answer);
