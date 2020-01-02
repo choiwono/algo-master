@@ -4,37 +4,13 @@ import java.util.*;
 
 public class Programmers42587 {
     public int solution(int[] priorities, int location){
+        PriorityQueue<pointer> que = new PriorityQueue<>();
         int answer = 0;
-
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-        Queue<pointer> q = new LinkedList<>();
-
-        for(int i = 0; i<priorities.length; i++){
-            pq.offer(priorities[i]);
-            q.offer(new pointer(i,priorities[i]));
+        // x,y
+        for(int i=0; i<priorities.length; i++){
+            que.add(new pointer(i,priorities[i]));
         }
-
-        while(!q.isEmpty()) {
-            int prior = pq.peek().intValue();
-            pq.poll();
-
-            int n;
-            while(true) {
-                n = q.peek().x;
-                int nPrior = q.peek().y;
-                q.poll();
-
-                if(nPrior == prior) {
-                    break;
-                }
-
-                q.add(new pointer(n, nPrior));
-            }
-            answer++;
-            if(n==location) {
-                break;
-            }
-        }
+        
         return answer;
     }
 
@@ -51,6 +27,5 @@ public class Programmers42587 {
         int[] priority = {1,1,9,1,1,1};
         int location = 0;
         Programmers42587 programers = new Programmers42587();
-        System.out.println(programers.solution(priority,location));
     }
 }
