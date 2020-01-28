@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Programmers62049",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers62049",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JoyStickPractice",
+            "request": "launch",
+            "mainClass": "프로그래머스.JoyStickPractice",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Programmers42588",
             "request": "launch",
             "mainClass": "프로그래머스.Programmers42588",

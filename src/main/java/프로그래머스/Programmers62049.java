@@ -4,48 +4,39 @@ import java.util.ArrayList;
 
 public class Programmers62049 {
     public static void main(String[] args) {
-
+        int answer[] = solution(3);
+        for(int i : answer) {
+            System.out.print("배열 = "+i);
+        }
     }
-
+    // 수열을 활용한 문제.. 0을 기준으로 
+    // 인덱스가 짝수인값이 0인지 1인지 비교해서 뒤에 0을 넣는가 1을 넣는가를 결정한다..
     public static int[] solution(int n){
-        //int[] answer = {};
-        // 단순 수학문제.. 규칙을 찾아야한다
         int[] answer = {};
-        int[] in = {0};
 
-        if(n == 1) return in;
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(0);
+        
+        // {0,0}
+        // 0,0,1,0
+        for (int i = 2; i <= n; i++) {
+            list.add(0);
+            int a = list.size();
 
-        for(int i=0; i< n-1; i++){
-            in = tree(in);
-        }
-
-        answer = in;
-
-        return answer;
-    }
-
-    private static int[] tree(int[] in) {
-        int[] answer = new int[in.length * 2 + 1];
-        int[] reversed = new int[in.length];
-
-        int asIdx = 0;
-
-        for(int i=0; i<in.length; i++){
-            answer[i] = in[i];
-
-            if(in[in.length - 1 -i] == 0){
-                reversed[i] = 1;
-            } else {
-                reversed[i] = 0;
+            for (int j = a - 2; j >= 0; j--) {
+                if (list.get(j) == 1) {
+                    list.add(0);
+                } else if (list.get(j) == 0) {
+                    list.add(1);
+                }
             }
+
         }
-
-        asIdx = in.length;
-        answer[asIdx] = 0;
-
-        asIdx++;
-        for(int i=0; i<reversed.length; i++){
-            answer[i + asIdx] = reversed[i];
+        
+        int size = list.size();
+        answer = new int[size];
+        for (int i = 0; i < size; i++) {
+            answer[i] = list.get(i);
         }
 
         return answer;
