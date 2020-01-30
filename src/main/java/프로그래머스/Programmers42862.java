@@ -19,7 +19,7 @@ public class Programmers42862 {
         // 3,4,5
         // 3,5,7
 
-        
+        // https://programmers.co.kr/learn/questions/9509 참고
         for(int i=0; i<lost.length; i++) {
             
             for(int j=0; j<reserve.length; j++) {
