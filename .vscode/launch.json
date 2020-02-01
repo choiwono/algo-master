@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Programmers12900",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12900",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Programmers17676",
             "request": "launch",
             "mainClass": "프로그래머스.Programmers17676",
