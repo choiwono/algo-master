@@ -5,36 +5,50 @@ import java.util.Queue;
 
 public class Programmers42860 {
     public static void main(String[] args) {
-        String name = "ABABAAAAAAABA";
-        //String name = "JAAZN";
+        //String name = "ABABAAAAAAABA";
+        String name = "JAAZN";
+        //String name = "JAO";
         Programmers42860 programmers = new Programmers42860();
         System.out.println(programmers.solution(name));
     }
 
     public int solution(String name){
-        int answer = 0, n = name.length(),
-                leftOrRight = name.length() - 1;
-        for(int i = 0; i < n; i++){
-            int next = i + 1;
-            char target = name.charAt(i);
-            // target이 N보다 작거나 같으면 - A 아닐경우 91 - A + A
-            if(target <= 'N') answer += target - 'A';
-            else answer += 91 - target;
-            // next값이 < n 보다 작고, next값이 A일때 next값을 계속 늘린다.
-            // 이러면 반복되는 A칸이 몇개나 되는지 알 수 있음..
-            // 더 작은수를 찾자, leftOrRight는 처음한칸은 움직일 필요 x - 1
-            // 현재까지 진행된 칸 + 최종칸 - 연속되는 A칸
-            // + 현재까지 진행칸 과 총남은칸 - 연속된 A칸 중 작은수
-            while(next < n && name.charAt(next) == 'A') next++;
-
-            leftOrRight = Math.min(leftOrRight, i + n - next + Math.min(i, n - next));
-            /*System.out.println("진행된 칸 = "+i);
-            System.out.println("연속된 a칸 = "+next);
-            System.out.println("answer 값 = "+answer);
-            System.out.println("왼쪽 혹은 오른쪽 = "+leftOrRight);*/
-            // 12 + 12 - 7, 17 +  5 // 7,22
+        int answer = 0;
+        // 어떤식으로 조작해야 최소값이 나오는지 계산
+        // name값 - 'A' 해서 14이상일 경우는 아래로 가는게 유리 
+        // 14 =< 'Z' - 문자열, 14보다 같거나 클경우
+        // 13 =< 문자 - 'A'가 유리하다, 13보다 작을경우
+        // 일단 왼쪽, 오른쪽 어느쪽이 유리한지 먼저 계산
+        while(true) {
+            int max = 0;
+            int right = name.length() - 1;
+            //int zero = 0;
+            for(int i=0; i<name.length(); i++) {
+                // 오른쪽
+                // 0인 경우에는 길이값 - 0 이동거리에 치지않는다.
+                
+                int temp = name.charAt(i) - 'A';
+                //System.out.println(temp);
+                if(temp > 0) {
+                    if(temp <= 13) {
+                        System.out.println(temp);
+                        max += temp;
+                    } else if(temp >= 14) {
+                        System.out.println(temp);
+                        max += 'Z' - name.charAt(i);
+                    }
+                } else if(temp == 0){
+                    right--;
+                }
+            }
+            
+            if(max > 1) {
+                System.out.println(max+","+right);
+                break;
+            }
         }
-        answer += leftOrRight;
+        
+
         return answer;
     }
 }
