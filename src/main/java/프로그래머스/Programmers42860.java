@@ -5,8 +5,9 @@ import java.util.Queue;
 
 public class Programmers42860 {
     public static void main(String[] args) {
-        //String name = "ABABAAAAAAABA";
-        String name = "JAAZN";
+        String name = "ABABAAAAAAABA";
+        //String name = "JAN";
+        //String name = "BBAABB";
         //String name = "JAO";
         Programmers42860 programmers = new Programmers42860();
         System.out.println(programmers.solution(name));
@@ -19,36 +20,39 @@ public class Programmers42860 {
         // 14 =< 'Z' - 문자열, 14보다 같거나 클경우
         // 13 =< 문자 - 'A'가 유리하다, 13보다 작을경우
         // 일단 왼쪽, 오른쪽 어느쪽이 유리한지 먼저 계산
-        while(true) {
-            int max = 0;
-            int right = name.length() - 1;
-            //int zero = 0;
-            for(int i=0; i<name.length(); i++) {
-                // 오른쪽
-                // 0인 경우에는 길이값 - 0 이동거리에 치지않는다.
-                
-                int temp = name.charAt(i) - 'A';
-                //System.out.println(temp);
-                if(temp > 0) {
-                    if(temp <= 13) {
-                        System.out.println(temp);
-                        max += temp;
-                    } else if(temp >= 14) {
-                        System.out.println(temp);
-                        max += 'Z' - name.charAt(i);
-                    }
-                } else if(temp == 0){
-                    right--;
-                }
-            }
-            
-            if(max > 1) {
-                System.out.println(max+","+right);
-                break;
+        int rightMax = 0, leftMax = 0, rightMove = 0, leftMove = 0;
+        int left = name.length() - 1, right = name.length() - 1;
+        
+        for(int i=0; i<name.length(); i++) {
+            int target = name.charAt(i) - 'A';
+            if(target == 0) rightMove++;
+
+            if(target <= 13) {
+                rightMax += target;
+            } else if(target > 13) {
+                rightMax += 'Z' - name.charAt(i) + 1;
             }
         }
-        
 
-        return answer;
+        rightMax = rightMax + right - rightMove;
+
+        for(int i=name.length() - 1; i>=0; i--) {
+            int target = name.charAt(i) - 'A';
+            if (target == 0)
+                leftMove++;
+
+            if (target <= 13) {
+                leftMax += target;
+            } else if (target > 13) {
+                leftMax += 'Z' - name.charAt(i) + 1;
+            }
+        }
+
+        leftMax = leftMax + left - leftMove;
+        //System.out.println(max+","+right+","+leftMove);
+
+        return Math.min(leftMax, rightMax);
+        // 9 + 4 + 9 + 12 + 4 + 13
+        // 13 + 21 + 17 = 51 + 5 = 56
     }
 }
