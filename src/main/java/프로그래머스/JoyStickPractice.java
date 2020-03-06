@@ -1,24 +1,26 @@
 package 프로그래머스;
 
 public class JoyStickPractice {
-    public static void main(String[] args) {
-        String name = "JEROEN";
-        JoyStickPractice joyStick = new JoyStickPractice();
-        int answer = joyStick.solution(name);
+    public static void main(final String[] args) {
+        final String name = "JEROEN";
+        final JoyStickPractice joyStick = new JoyStickPractice();
+        final int answer = joyStick.solution(name);
         System.out.println(answer);
     }
     // 조이스틱 문제.. "AAAAAA" 에서 최소한으로 움직이는 경우의수
 
-    public int solution(String name){
+    public int solution(final String name){
         int answer = 0;
         // NAME의 길이만큼 문자열을 만들자..
         String make = "";
 
-        for(int i=0; i<name.length(); i++){
+        // 이름길이만큼 A 문자열을 만든다.
+        for(int i=0; i < name.length(); i++){
             make += "A";
         }
+
         int now = 0;
-        // make와 name 값이 다를 경우 계속 반복..
+        // make와 name 이 같을때까지 반복
         while (make != name){
             int i = 0;
             int temp1 = 0;
@@ -26,8 +28,9 @@ public class JoyStickPractice {
             int j, k;
 
             // 오른쪽으로 찾는다
+            // now + k % 이름길이 하면 0~5
             for (k=0; k < name.length(); k++){
-                int idx = (now + k) % name.length();
+                final int idx = (now + k) % name.length();
                 if(make.charAt(idx) != name.charAt(idx)){
                     if((idx - now) < 0){
                         temp1 = name.length() - now + idx;
@@ -41,7 +44,7 @@ public class JoyStickPractice {
 
             // 왼쪽으로 찾는다..
             for(j = 0; j< name.length(); j++){
-                int idx = (now - j + name.length()) % name.length();
+                final int idx = (now - j + name.length()) % name.length();
                 if(make.charAt(idx) != name.charAt(idx)){
                     if((now - idx) < 0){
                         temp2 += name.length() - idx + now;
@@ -71,6 +74,28 @@ public class JoyStickPractice {
             }
         }
 
+        return answer;
+    };
+
+    public int solution3(name) {
+        int answer = 0;
+        int n = name.length();
+        // 이름값 - 1 ( 이유 모름 )
+        int leftOrRight = name.length() - 1;
+        for(int i = 0; i < n; i++) {
+            int next = i + 1;
+            char target = name.charAt(i);
+            // N보다 작을 경우 방향키 위로 
+            if(target <= 'N') {
+                answer += target - 'A';
+            } else {
+                answer += 'Z' - target + 1;
+            }
+            // next값이 글자수보다 작고 next값이 A일때 next값 ++
+            while(next < n && name.charAt(next) == 'A') next++;
+            leftOrRight = Math.min(leftOrRight, i + n - next + Math.min(i, n-next));
+        }
+        answer += leftOrRight;
         return answer;
     }
 }
