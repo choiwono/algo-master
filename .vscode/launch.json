@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaxSubArray",
+            "request": "launch",
+            "mainClass": "릿코드.MaxSubArray",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MovesToZeros",
             "request": "launch",
             "mainClass": "릿코드.MovesToZeros",
