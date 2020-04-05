@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MovesToZeros",
+            "request": "launch",
+            "mainClass": "릿코드.MovesToZeros",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BestTimeToBuy",
+            "request": "launch",
+            "mainClass": "릿코드.BestTimeToBuy",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Programmers12931",
+            "request": "launch",
+            "mainClass": "프로그래머스.Programmers12931",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Programmers12930",
             "request": "launch",
             "mainClass": "프로그래머스.Programmers12930",
