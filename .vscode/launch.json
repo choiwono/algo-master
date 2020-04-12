@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Solve003",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve003",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve002",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve002",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve001",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve001",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DuplicateNumber",
+            "request": "launch",
+            "mainClass": "프로그래머스.DuplicateNumber",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MiddleNumber",
             "request": "launch",
             "mainClass": "프로그래머스.MiddleNumber",
