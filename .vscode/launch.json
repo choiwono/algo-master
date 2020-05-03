@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Solve009",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve009",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solve008",
             "request": "launch",
             "mainClass": "인프런알고리즘강좌.Solve008",
