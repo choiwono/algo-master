@@ -2,7 +2,7 @@ package 인프런알고리즘강좌;
 
 public class Solve005 {
     public static void main(String[] args) {
-        solution("010316-4376152");
+        solution("061102-3575393");
     }
 
     public static String solution(String number) {

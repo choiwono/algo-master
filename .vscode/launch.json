@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Solve008",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve008",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve007",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve007",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve006",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve006",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solve005",
             "request": "launch",
             "mainClass": "인프런알고리즘강좌.Solve005",
