@@ -5,7 +5,6 @@ import java.util.*;
 public class Solve008 {
     public static void main(String[] args) {
         String answer = solution("(()(()))(()");
-        System.out.println(answer);
     }
 
     public static String solution(String str) {

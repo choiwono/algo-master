@@ -3,8 +3,7 @@ package 인프런알고리즘강좌;
 public class Solve010 {
     public static void main(String[] args) {
         int[] arr = { 125,15232,79,1325,97 };
-        int answer = solution(5, arr);
-        System.out.println(answer);
+        solution(5, arr);
     }
 
     public static int solution(int x, int[] numbers) {

@@ -29,8 +29,6 @@ public class Solve005 {
                 age = yyyy - Integer.parseInt(str) + 1;
             }
         }
-        System.out.println(age+" "+sex);
-
         return answer;
     }
 }
