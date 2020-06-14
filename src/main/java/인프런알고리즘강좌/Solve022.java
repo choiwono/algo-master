@@ -4,7 +4,7 @@ public class Solve022 {
     public static void main(String[] args) {
         int N = 10;
         int K = 2;
-        int[] arr = {3,-2,-4,-9,0,3,7,13,8,-3};
+        int[] arr = { 3, -2, -4, -9, 0, 3, 7, 13, 8, -3 };
         solution(N,K,arr);
     }
 
