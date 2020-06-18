@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Solve024",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve024",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve023",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve023",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve022",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve022",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve021",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve021",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve020",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve020",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve019",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve019",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve018",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve018",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve017",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve017",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve016",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve016",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve015",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve015",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solve014",
+            "request": "launch",
+            "mainClass": "인프런알고리즘강좌.Solve014",
+            "projectName": "algo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Solve013",
             "request": "launch",
             "mainClass": "인프런알고리즘강좌.Solve013",
