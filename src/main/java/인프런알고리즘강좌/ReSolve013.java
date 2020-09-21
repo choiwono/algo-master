@@ -5,13 +5,13 @@ import java.util.PriorityQueue;
 
 public class ReSolve013 {
     public static void main(String[] args) {
-        int solution = solution(518232759759792517957547995477547857985771547549795757577);
+        solution("5118123211751971519117191251171915751471911547711547811157191857711514715149711");
     }
 
-    public static int solution(long x) {
+    public static int solution(String x) {
         int answer = 0;
-        String str = Long.toString(x);
-        String[] strs = str.split("");
+        //String str = Long.toString(x);
+        String[] strs = x.split("");
 
         Arrays.sort(strs);
 
