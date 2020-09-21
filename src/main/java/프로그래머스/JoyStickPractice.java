@@ -76,26 +76,26 @@ public class JoyStickPractice {
 
         return answer;
     };
-
-    public int solution3(name) {
-        int answer = 0;
-        int n = name.length();
-        // 이름값 - 1 ( 이유 모름 )
-        int leftOrRight = name.length() - 1;
-        for(int i = 0; i < n; i++) {
-            int next = i + 1;
-            char target = name.charAt(i);
-            // N보다 작을 경우 방향키 위로 
-            if(target <= 'N') {
-                answer += target - 'A';
-            } else {
-                answer += 'Z' - target + 1;
-            }
-            // next값이 글자수보다 작고 next값이 A일때 next값 ++
-            while(next < n && name.charAt(next) == 'A') next++;
-            leftOrRight = Math.min(leftOrRight, i + n - next + Math.min(i, n-next));
-        }
-        answer += leftOrRight;
-        return answer;
-    }
+//
+//    public int solution3(name) {
+//        int answer = 0;
+//        int n = name.length();
+//        // 이름값 - 1 ( 이유 모름 )
+//        int leftOrRight = name.length() - 1;
+//        for(int i = 0; i < n; i++) {
+//            int next = i + 1;
+//            char target = name.charAt(i);
+//            // N보다 작을 경우 방향키 위로
+//            if(target <= 'N') {
+//                answer += target - 'A';
+//            } else {
+//                answer += 'Z' - target + 1;
+//            }
+//            // next값이 글자수보다 작고 next값이 A일때 next값 ++
+//            while(next < n && name.charAt(next) == 'A') next++;
+//            leftOrRight = Math.min(leftOrRight, i + n - next + Math.min(i, n-next));
+//        }
+//        answer += leftOrRight;
+//        return answer;
+//    }
 }
