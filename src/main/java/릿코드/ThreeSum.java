@@ -2,7 +2,7 @@ package 릿코드;
 
 import java.util.*;
 
-public class 3Sum {
+public class ThreeSum {
     public static void main(String[] args) {
         threeSum(new int[]{-1,0,1,2,-1,-4});
     }
