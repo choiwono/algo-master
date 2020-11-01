@@ -13,7 +13,7 @@ public class BestTimeToBuy {
         //Map<Integer, Integer> stock = new HashMap<>();
         int profit = 0;
         // 7을 사서 언제 파는지 이득인지 계산
-
+        
         for(int i=0; i<prices.length; i++) {
             if(i+1 < prices.length) {
                 //System.out.println("차이값 : "+prices[i]+","+prices[i+1]);
